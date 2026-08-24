@@ -56,13 +56,28 @@
             margin-bottom: 30px;
         }
 
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #d9d0c2;
+        }
         .logo h1 {
             font-size: 1.9rem;
             font-weight: 600;
             color: #1e3a3d;
             letter-spacing: -0.5px;
         }
-
+        .logo .title-desc {
+            display: flex;
+            flex-direction: column;
+        }
         .logo span {
             display: block;
             font-size: 0.9rem;
@@ -405,13 +420,16 @@
     <!-- هدر و ناوبری -->
     <header class="header">
         <div class="logo">
-            <h1>🎨  نقاشی ساختمان انواع رنگ </h1>
-            <span>نصب کاغذ دیواری · اجرای حرفه‌ای</span>
+            <img src="naghash.jpg" alt="لوگو نقاش ساختمان برادران کرمعلی">
+            <div class="title-desc">
+                <h1>🎨  نقاشی ساختمان انواع رنگ </h1>
+                <span>نصب کاغذ دیواری · اجرای حرفه‌ای</span>
+            </div>
         </div>
         <nav class="nav-links">
             <a href="#" class="active"><i class="fas fa-home"></i> صفحه اصلی</a>
             <a href="#sample-works"><i class="fas fa-paint-brush"></i> نمونه کارها</a>
-            <a href="contact.html"><i class="fas fa-phone-alt"></i> تماس</a>
+            <a href="tel:09398383279"><i class="fas fa-phone-alt"></i> تماس</a>
             <a href="#sample-works"><i class="fas fa-image"></i> نمونه کارها</a>
         </nav>
     </header>
@@ -421,7 +439,7 @@
         <div class="hero-text">
             <h2>نقاش ساختمان و نصاب کاغذ دیواری</h2>
             <p>
-                09398383279 شماره تماس 
+                <a href="tel:09398383279" style="color:#1e3a3d; font-weight:bold; text-decoration:none;">09398383279</a> شماره تماس 
                 با بیش از ۱۲ سال تجربه در اجرای رنگ‌آمیزی داخلی و خارجی، کاغذ دیواری‌های لوکس و مدرن. 
                 کیفیت را با ما تجربه کنید.
             </p>
@@ -534,7 +552,7 @@
 
     <!-- دکمه‌های لینک به صفحات -->
     <div class="action-links">
-        <a href="contact.html" class="action-btn"><i class="fas fa-phone-alt"></i> صفحه تماس (contact.html)</a>
+        <a href="tel:09398383279" class="action-btn"><i class="fas fa-phone-alt"></i> تماس با ما (09398383279)</a>
         <a href="#sample-works" class="action-btn outline"><i class="fas fa-th-large"></i> نمونه کارها (همین صفحه)</a>
         <a href="Sample کارها.html" class="action-btn outline" style="border-color: #b3a48e; color:#3d5354;"><i class="fas fa-folder-open"></i> Sample کارها.html</a>
     </div>
@@ -544,7 +562,7 @@
         <p>
             <i class="fas fa-paint-brush"></i> نقاش ساختمان و نصاب کاغذ دیواری · 
             <i class="fas fa-map-pin"></i> تهران و کرج و در صورت جای خواب کل ایران عزیزمون 
-            <i class="fas fa-phone"></i> 09398383279 
+            <i class="fas fa-phone"></i> <a href="tel:09398383279" style="color:#6b7f7b; text-decoration:none;">09398383279</a>
         </p>
         <p style="margin-top: 6px; font-size: 0.8rem; opacity: 0.7;">
             <i class="far fa-copyright"></i> تمامی حقوق محفوظ است. 
